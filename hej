@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierce the Veil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pierce the Veil</h1>
+    </header>
+    <main>
+        <section>
+            <h2>O zespole</h2>
+            <p class="description">Pierce the Veil to amerykański zespół rockowy założony w 2006 roku w San Diego. Jego muzyka to połączenie emocjonalnego rocka, post-hardcore i pop-punku.</p>
+            <p id="unique-info">Głównymi członkami zespołu są: Vic Fuentes (wokal, gitara), Mike Fuentes (perkusja), Tony Perry (gitara prowadząca) i Jaime Preciado (gitara basowa).</p>
+        </section>
+
+        <section>
+            <h2>Galeria</h2>
+            <img src="https://example.com/image1.jpg" alt="Pierce the Veil na scenie" class="photo">
+            <img src="https://example.com/image2.jpg" alt="Okładka albumu" class="photo">
+        </section>
+
+        <section>
+            <h2>Dyskografia</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Album</th>
+                        <th>Rok wydania</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A Flair for the Dramatic</td>
+                        <td>2007</td>
+                    </tr>
+                    <tr>
+                        <td>Collide with the Sky</td>
+                        <td>2012</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Odwiedź także</h2>
+            <ul>
+                <li><a href="https://piercetheveil.net" target="_blank">Oficjalna strona zespołu</a></li>
+                <li><a href="https://www.instagram.com/piercetheveil" target="_blank">Instagram zespołu</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Fan Strona o <strong>Pierce the Veil</strong></p>
+        </footer>
+    </main>
+</body>
+</html>
+
+
+
+
+
+----------------------
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Nagłówek */
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Sekcje */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Klasy */
+.description {
+    font-size: 18px;
+    color: #555;
+}
+
+.photo {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #222;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Identyfikator */
+#unique-info {
+    font-weight: bold;
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #222;
+    color: white;
+}
+
+/* Lista */
+ul {
+    list-style: circle;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #444;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
